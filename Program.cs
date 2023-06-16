@@ -18,7 +18,7 @@ else
 
 //Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-*/
+
 
 Console.WriteLine("input number ");
 int number = Convert.ToInt32(Console.ReadLine());;
@@ -52,4 +52,28 @@ else if (number > 99999)
 else
 {
     Console.WriteLine("третьей цифры нет");
+}
+
+
+Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, 
+и проверяет, является ли этот день выходным.
+
+*/
+
+Console.WriteLine("input number ");
+int number = Convert.ToInt32(Console.ReadLine());;
+
+if (number > 0 && number <= 5)
+{
+    Console.WriteLine("no");
+}
+
+else if (number > 5 && number <= 7)
+{
+    Console.WriteLine("yes");
+}
+
+else
+{
+    Console.WriteLine("input number from 1 to 7");
 }
